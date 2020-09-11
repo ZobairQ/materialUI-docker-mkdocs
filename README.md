@@ -16,8 +16,12 @@ Since this is a dockerized mkdocs you need to have docker as well as docker-comp
 3. Run the following command to **Build** and **Run** mkdocs docker container
 
         docker-compose up --build
-
-
+ 
+ 4. Visit 
+ 
+        localhost:8000
+        
+to view your new mkdocs 
 ## Create Docker Compose Image
 
 If you dont want to run the container right way you can just create the image you can run     

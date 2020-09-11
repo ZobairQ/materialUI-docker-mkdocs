@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  mkdocs-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: mkdocs-app
+    volumes: [.:/doc]
+    ports:
+      - 8000:8000
+    command: ["serve", "-a", "0.0.0.0:8000"]

@@ -25,7 +25,8 @@ to view your new mkdocs
 ## Create Docker Compose Image
 
 If you dont want to run the container right way you can just create the image you can run     
-            docker-compose create
+
+            docker-compose up --no-start
 
 ### Check if the image is created
 

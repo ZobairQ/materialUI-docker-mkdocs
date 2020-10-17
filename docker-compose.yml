@@ -2,6 +2,7 @@ version: "3"
 
 services:
   mkdocs-app:
+    container_name: material-mkdocs-1.0
     build:
       context: .
       dockerfile: Dockerfile

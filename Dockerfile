@@ -12,4 +12,4 @@ WORKDIR /doc
 
 EXPOSE 8000
 
-ENTRYPOINT [ "mkdocs" ]sd 
+ENTRYPOINT [ "mkdocs" ]

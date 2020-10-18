@@ -6,7 +6,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: mkdocs-app
+    image: zobairq/mkdocs:apt-material
     volumes: [.:/doc]
     ports:
       - 8000:8000
